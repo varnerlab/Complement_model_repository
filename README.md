@@ -72,9 +72,15 @@ In this study we reproduced data from the study of [Shaw and coworkers](https://
 
 to train and test the reduced order complement model. The data used for model training and validation is contained in the ``data`` subdirectory.
 
-Filename | Original Figure | Current Figure | Role
---- | --- | --- | ---
-``Shaw2015_Fig2a_C3a.txt`` | Fig. 2A | Fig. 2A | training
-``Shaw2015_Fig3ai_C5a_original.txt`` | Fig. 3a(i) | Fig. 2B | training
-``Shaw2015_Fig2e_C3a.txt`` | Fig. 2E | Fig. 2C | training
-``Shaw2015_Fig3c_C5a_original.txt`` | Fig. 3C | Fig. 2D | training
+Filename | Original Figure | Current Figure | Species | Role
+--- | --- | --- | --- | ---
+``Shaw2015_Fig2a_C3a.txt`` | Fig. 2A | Fig. 2A | C3a | training
+``Shaw2015_Fig3ai_C5a_original.txt`` | Fig. 3a(i) | Fig. 2B | C5a | training
+``Shaw2015_Fig2e_C3a.txt`` | Fig. 2E | Fig. 2C | C3a | training
+``Shaw2015_Fig3c_C5a_original.txt`` | Fig. 3C | Fig. 2D | C5a | training
+``Shaw2015_Fig2d_C3a.txt`` | Fig. 2D | Fig. 3 (1,1) | C3a | prediction
+``Shaw2015_Fig3b_C5a_original.txt`` | Fig. 3B	| Fig. 3 (2,1) | C5a | prediction
+``Shaw2015_Fig2c_C3a.txt`` | Fig. 2C | Fig. 3 (1,2) | C3a | prediction
+``Shaw2015_Fig3aiii_C5a_original.txt`` | Fig. 3A(iii) | Fig. 3 (2,2) | C5a | prediction
+``Shaw2015_Fig2b_C3a.txt`` | Fig. 2B | Fig. 3 (1,3) | C3a | prediction
+``Shaw2015_Fig3aii_C5a_original.txt`` | Fig. 3A(ii) | Fig. 3 (2,3) | prediction
