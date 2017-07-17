@@ -66,7 +66,7 @@ Filename | Figure | Readout | zymosan (mg/ml)
 ``Make_Fig_3_C3_C5a.jl`` | Fig. 3 | C5a | 0.001
 
 ### Data directory ###
-In this study we reproduced data from the study of Shaw and coworkers:
+In this study we reproduced data from the study of [Shaw and coworkers](https://www.ncbi.nlm.nih.gov/pubmed/?term=Morad+and+Shaw+2015):
 
 [Morad HO, Belete SC, Read T and AM Shaw (2015) Time-course analysis of C3a and C5a quantifies the coupling between the upper and terminal Complement pathways in vitro. J Immunol Methods. 2015 Dec;427:13-8. doi: 10.1016/j.jim.2015.09.001](https://www.ncbi.nlm.nih.gov/pubmed/?term=Morad+and+Shaw+2015)
 
