@@ -70,7 +70,7 @@ In this study we reproduced data from the study of [Shaw and coworkers](https://
 
 [Morad HO, Belete SC, Read T and AM Shaw (2015) Time-course analysis of C3a and C5a quantifies the coupling between the upper and terminal Complement pathways in vitro. J Immunol Methods. 2015 Dec;427:13-8. doi: 10.1016/j.jim.2015.09.001](https://www.ncbi.nlm.nih.gov/pubmed/?term=Morad+and+Shaw+2015)
 
-to train and test the reduced order complement model. The data used for model training and validation is contained in the ``data`` subdirectory.
+to train and test the effective complement model. The data used for model training and validation is contained in the ``data`` subdirectory.
 
 Filename | Original Figure | Current Figure | Species | Role
 --- | --- | --- | --- | ---
