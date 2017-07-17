@@ -47,3 +47,13 @@ The model ensemble was estimated using the [JuPOETs package](https://github.com/
 [Bassen D, Vilkhovoy M, Minot M, J. Butcher and J. Varner (2016) JuPOETs: A Constrained Multiobjective Optimization Approach to Estimate Biochemical Model Ensembles in the Julia Programming Language. bioRxiv 056044; doi: http://dx.doi.org/10.1101/056044](http://biorxiv.org/content/early/2016/05/30/056044)
 
 __Prerequisites__: [Julia](http://julialang.org) and the [Sundials package](https://github.com/JuliaLang/Sundials.jl) must be installed on your computer before the model equations can be solved. In addition, in the example routine ``sample_ensemble.jl`` the ensemble output is plotted using the [PyPlot](https://github.com/stevengj/PyPlot.jl) package which requires a working Python installation.  
+
+### Test simulation routines ###
+To test your model and [Julia](http://julialang.org) installation we have included routines to recreate Fig 2 and 3 of the [Sagar et al study](http://biorxiv.org/content/early/2016/06/16/059386):
+
+Filename | Corresponding Fig | Readout | zymosan (mg/ml)
+--- | ---
+``Make_Fig_2A.jl`` | Fig. 2A | C3a | 0.0
+``Make_Fig_2B.jl`` | Fig. 2B | C5a | 0.0
+``Make_Fig_2C.jl`` | Fig. 2C | C3a | 1.0
+``Make_Fig_2D.jl`` | Fig. 2D | C5a | 1.0
