@@ -83,4 +83,4 @@ Filename | Original Figure | Current Figure | Species | Role
 ``Shaw2015_Fig2c_C3a.txt`` | Fig. 2C | Fig. 3 (1,2) | C3a | prediction
 ``Shaw2015_Fig3aiii_C5a_original.txt`` | Fig. 3A(iii) | Fig. 3 (2,2) | C5a | prediction
 ``Shaw2015_Fig2b_C3a.txt`` | Fig. 2B | Fig. 3 (1,3) | C3a | prediction
-``Shaw2015_Fig3aii_C5a_original.txt`` | Fig. 3A(ii) | Fig. 3 (2,3) | prediction
+``Shaw2015_Fig3aii_C5a_original.txt`` | Fig. 3A(ii) | Fig. 3 (2,3) | C5a | prediction
