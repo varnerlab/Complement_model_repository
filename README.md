@@ -58,9 +58,9 @@ Filename | Corresponding Fig | Readout | zymosan (mg/ml)
 ``Make_Fig_2B.jl`` | Fig. 2B | C5a | 0.0
 ``Make_Fig_2C.jl`` | Fig. 2C | C3a | 1.0
 ``Make_Fig_2D.jl`` | Fig. 2D | C5a | 1.0
- `Make_Fig_3_C1_C3a.jl`` | Fig. 3 | C3a | 0.1
- `Make_Fig_3_C1_C5a.jl`` | Fig. 3 | C5a | 0.1
- `Make_Fig_3_C2_C3a.jl`` | Fig. 3 | C3a | 0.01
- `Make_Fig_3_C2_C5a.jl`` | Fig. 3 | C5a | 0.01
- `Make_Fig_3_C3_C3a.jl`` | Fig. 3 | C3a | 0.001
- `Make_Fig_3_C3_C5a.jl`` | Fig. 3 | C5a | 0.001
+``Make_Fig_3_C1_C3a.jl`` | Fig. 3 | C3a | 0.1
+``Make_Fig_3_C1_C5a.jl`` | Fig. 3 | C5a | 0.1
+``Make_Fig_3_C2_C3a.jl`` | Fig. 3 | C3a | 0.01
+``Make_Fig_3_C2_C5a.jl`` | Fig. 3 | C5a | 0.01
+``Make_Fig_3_C3_C3a.jl`` | Fig. 3 | C3a | 0.001
+``Make_Fig_3_C3_C5a.jl`` | Fig. 3 | C5a | 0.001
