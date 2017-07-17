@@ -48,11 +48,11 @@ The model ensemble was estimated using the [JuPOETs package](https://github.com/
 
 __Prerequisites__: [Julia](http://julialang.org) and the [Sundials package](https://github.com/JuliaLang/Sundials.jl) must be installed on your computer before the model equations can be solved. In addition, in the example routine ``sample_ensemble.jl`` the ensemble output is plotted using the [PyPlot](https://github.com/stevengj/PyPlot.jl) package which requires a working Python installation.  
 
-# Test simulation routines #
+### Test simulation routines ###
 To test your model and [Julia](http://julialang.org) installation we have included routines to recreate Fig 2 and 3 of the [Sagar et al study](http://biorxiv.org/content/early/2016/06/16/059386). In each of these routines, we sample the ensemble and plot the mean and 95% CI of
 the ensemble versus the corresponding experimental data.
 
-Filename | Corresponding Fig | Readout | zymosan (mg/ml)
+Filename | Figure | Readout | zymosan (mg/ml)
 --- | --- | --- | ---
 ``Make_Fig_2A.jl`` | Fig. 2A | C3a | 0.0
 ``Make_Fig_2B.jl`` | Fig. 2B | C5a | 0.0
@@ -64,3 +64,17 @@ Filename | Corresponding Fig | Readout | zymosan (mg/ml)
 ``Make_Fig_3_C2_C5a.jl`` | Fig. 3 | C5a | 0.01
 ``Make_Fig_3_C3_C3a.jl`` | Fig. 3 | C3a | 0.001
 ``Make_Fig_3_C3_C5a.jl`` | Fig. 3 | C5a | 0.001
+
+### Data directory ###
+In this study we reproduced data from the study of Shaw and coworkers:
+
+[Morad HO, Belete SC, Read T and AM Shaw (2015) Time-course analysis of C3a and C5a quantifies the coupling between the upper and terminal Complement pathways in vitro. J Immunol Methods. 2015 Dec;427:13-8. doi: 10.1016/j.jim.2015.09.001](https://www.ncbi.nlm.nih.gov/pubmed/?term=Morad+and+Shaw+2015)
+
+to train and test the reduced order complement model. The data used for model training and validation is contained in the ``data`` subdirectory.
+
+Filename | Original Figure | Current Figure | Role
+--- | --- | --- | ---
+``Shaw2015_Fig2a_C3a.txt`` | Fig. 2A | Fig. 2A | training
+``Shaw2015_Fig3ai_C5a_original.txt`` | Fig. 3a(i) | Fig. 2B | training
+``Shaw2015_Fig2e_C3a.txt`` | Fig. 2E | Fig. 2C | training
+``Shaw2015_Fig3c_C5a_original.txt`` | Fig. 3C | Fig. 2D | training
