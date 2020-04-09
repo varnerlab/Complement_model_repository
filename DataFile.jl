@@ -50,8 +50,14 @@ initial_condition_array[17] = 2.23    # 6 Factor H
 initial_condition_array[18] = 0.417   # 7 C4BP
 
 # Load the parameters from disk -
-parameter_array = readdlm("./best_solution.txt")
+# parameter_array = readdlm("./best_solution.txt")
 
+# JV: initialize a placeholder parameter array. 
+# The actual parameter ensemble is contained in the data subdir
+# pc_array*.dat = number_of_parameters x number_of_trials (each col is a parameter soln)
+# rank_array*.dat = number_of_trials x 1  (holds the Pareto rank for each col in pc_array*.dat)
+parameter_array = zeros(28,1)
+  
 # ---------------------------- DO NOT EDIT BELOW THIS LINE -------------------------- #
 data_dictionary = Dict();
 data_dictionary["PARAMETER_ARRAY"] = parameter_array;
