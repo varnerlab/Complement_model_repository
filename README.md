@@ -42,9 +42,12 @@ This will load the parameter ensemble from disk (assumed to be stored in the ``d
 
 This code will simulate all parameter sets in the ensemble with Pareto rank five or less.
 
+#### Where are the parameters stored and how where they eastimated?
 The model ensemble was estimated using the [JuPOETs package](https://github.com/varnerlab/POETs.jl). The complement objective functions, and problem specific constraints are encoded in ``complement_lib.jl``. The JuPOETs package is described in the publication:
 
 [Bassen D, Vilkhovoy M, Minot M, J. Butcher and J. Varner (2016) JuPOETs: A Constrained Multiobjective Optimization Approach to Estimate Biochemical Model Ensembles in the Julia Programming Language. bioRxiv 056044; doi: http://dx.doi.org/10.1101/056044](http://biorxiv.org/content/early/2016/05/30/056044)
+
+The raw parameter values are contained in the ``pc_array_O1_O2.dat`` file in the ``data`` subdirectory, while Pareto rank for each parameter set is contained in the ``rank_array_O1_O2.dat`` file in the ``data`` subdirectory. Lastly, the actual error values for each objective are contained in the ``ec_array_O1_O2.dat`` file in the ``data`` subdirectory.
 
 __Prerequisites__: [Julia](http://julialang.org) and the [Sundials package](https://github.com/JuliaLang/Sundials.jl) must be installed on your computer before the model equations can be solved. In addition, in the example routine ``sample_ensemble.jl`` the ensemble output is plotted using the [PyPlot](https://github.com/stevengj/PyPlot.jl) package which requires a working Python installation.  
 
